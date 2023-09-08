@@ -1,14 +1,13 @@
-#Calculator
 print("Calculator CODSOFT")
-print("Enter a Number :")
-n1=float(input())
-print("Enter another Number :")
-n2=float(input())
 
 
 print()
 while True:
     op = input("Enter Operator (+,-,*,/,%,e(exit)) : ")
+    print("Enter a Number :")
+    n1=float(input())
+    print("Enter another Number :")
+    n2=float(input())
     print()
 
     match op:
@@ -43,4 +42,5 @@ while True:
             print()
 
         case "e":
+            print("Exited Successfully")
             break
