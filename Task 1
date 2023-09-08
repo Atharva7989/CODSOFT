@@ -35,22 +35,6 @@ while True:
 
              
           case 2:
-             """print("Delete Task")
-             for i in l:
-                 print("Task",c,":",i,end="")
-                 print()
-                 c+=1
-             index=int(input())
-             print("Enter no of Task to remove")
-             print()
-             z=index-1
-             
-             print(l.pop(z))
-             print("Task Deleted Sucessfully")
-             print()
-             print(l)
-             print()"""
-
              print("Delete Task")
              for idx, task in enumerate(l[1:], start=1):
                  
