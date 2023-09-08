@@ -1,3 +1,4 @@
+#Calculator
 print("Calculator CODSOFT")
 print("Enter a Number :")
 n1=float(input())
